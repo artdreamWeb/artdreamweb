@@ -10,12 +10,14 @@
 
 //--------- structures file -----------//
 @import 'structures/title-content-m';
+@import 'structures/cray-title';
+@import 'structures/work-box';
 @import 'structures/footer';
 
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: $body--bg;
+  // background: $body--bg;
 }
 ul,
 li{
@@ -25,4 +27,7 @@ li{
 }
 a {
   color: #00B7FF;
+}
+p{
+	padding:30px 0;
 }
