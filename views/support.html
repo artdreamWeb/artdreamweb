@@ -1,0 +1,400 @@
+{% extends 'layout.html' %}
+{% block title %}支持我们{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+{% include 'focus.html' %}
+
+<div class="container ad-sup">
+	<div class="ad-sup-nav hidden-xs ad-nav-scroll">
+		<ul class="nav nav-pills nav-stacked ad-nav-spy">
+			<li role="presentation" class="active"><a href="#donate"><span class="glyphicon glyphicon-gift" aria-hidden="true"></span>个人捐赠</a></li>
+			<li role="presentation"><a href="#project"><span class="glyphicon glyphicon-gift" aria-hidden="true"></span>项目合作</a></li>
+			<li role="presentation"><a href="#enterprise"><span class="glyphicon glyphicon-gift" aria-hidden="true"></span>企业资助</a></li>
+			<li role="presentation"><a href="#media"><span class="glyphicon glyphicon-gift" aria-hidden="true"></span>媒体合作</a></li>
+		</ul>
+	</div>
+	<div class="ad-sup-content">
+		<div class="row ad-sup-donate" id="donate">
+			<div class="title">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+						<h2>个人捐赠<span>/ GERENJUANZENG</span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="row ad-sup-donate-intro">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						每学期音画梦想会为流动儿童开设音乐、美术、摄影、舞蹈四门课程。如果你有相应的艺术专长，我们十分欢迎你加入音画梦想，成为我们的授课志愿者，去亲身感受一批孩子因你而形成的改变。当然，如果你没有充裕的时间或相应的艺术专长，你仍然可以通过认购孩子们的教学用具来帮助他们。
+					</div>
+				</div>
+				<div class="row ad-sup-donate-way">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<div class="panel panel-info">
+							<div class="panel-heading">捐款方式</div>
+							<div class="panel-body">
+								<ul class="nav nav-pills hidden-xs"  role="tablist">
+								 	<li role="presentation" class="active col-sm-4"><a href="#donate-online" aria-controls="donate-online" data-toggle="tab">在线捐款</a></li>
+									<li role="presentation" class="col-sm-4"><a href="#donate-bank" aria-controls="donate-bank" data-toggle="tab">银行捐款</a></li>
+									<li role="presentation" class="col-sm-4"><a href="#donate-mail" aria-controls="donate-mail" data-toggle="tab">邮汇捐款</a></li>
+								</ul>
+								<ul class="nav nav-pills visible-xs"  role="tablist">
+								 	<li role="presentation" class="active col-xs-4"><a href="#donate-online" aria-controls="donate-online" data-toggle="tab">在线</a></li>
+									<li role="presentation" class="col-xs-4"><a href="#donate-bank" aria-controls="donate-bank" data-toggle="tab">银行</a></li>
+									<li role="presentation" class="col-xs-4"><a href="#donate-mail" aria-controls="donate-mail" data-toggle="tab">邮汇</a></li>
+								</ul>
+								<div class="tab-content">
+								    <div class="tab-pane panel panel-default active" id="donate-online">
+									    <div class="panel-body">
+											<div class="donate-way-content">
+												<a href="http://www.ccafc.org.cn/templates/Donation/txxx.aspx?nodeid=5&projectid=4324" target="_blank" role="button"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> 在线捐款网址入口</a>
+											</div>
+								    	</div>
+								    </div>
+								    <div class="tab-pane panel panel-default" id="donate-bank">
+										<div class="panel-body container-fluid">
+											<div class="donate-way-icon hidden-xs">
+												<img src="../images/support_donation_bank.png">
+											</div>
+											<div class="donate-way-content">
+												<b>开户银行：</b>中国银行北京分行西翠路支行<br/>
+											    <b>户名：</b>中华少年儿童慈善救助基金会<br/>
+											    <b>账号：</b>3207 5602 7856<br/>
+											    <div class="bank-notes">
+											    	说明：请务必在备注栏内注明“童缘-音画梦想”！否则我们将无法收到善款。<br/>
+											    	特别说明：如果您采用ATM机转账，请务必在转账后将汇款凭证拍照邮件发送至<strong>xingchen.wang@artdreamchina.org</strong>告知我们，谢谢。<br/>
+											    </div>
+											</div>
+										</div>
+								    </div>
+								    <div class="tab-pane panel panel-default" id="donate-mail">
+										<div class="panel-body">
+											<div class="donate-way-icon hidden-xs">
+												<img src="../images/support_donation_mail.png">
+											</div>
+											<div class="donate-way-content">
+												<b>单位名称：</b>中华少年儿童慈善救助基金会<br/>
+												<b>地址：</b>北京市海淀区彰化路9号中扶国际4层<br/>
+												<b>邮政编码：</b>100097<br/>
+											    <div class="mail-notes">
+									    			说明：请务必在备注栏内注明“童缘-音画梦想”！否则我们将无法收到善款。
+											    </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row ad-sup-donate-money">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<div class="panel panel-info">
+							<div class="panel-heading">捐款金额</div>
+							<div class="panel-body">
+								<div class="hidden-xs">
+									<img src="../images/support_donation_money.png">
+									<button type="button" class="money-1 btn btn-primary" data-toggle="tooltip" data-placement="left" title="1元，认购音画梦想一年电子刊物，我们会每半年给您邮箱寄去音画梦想电子刊物">1 元</button>
+									<button type="button" class="money-150 btn btn-primary" data-toggle="tooltip" data-placement="left" title="150元，认购一个孩子的音乐/美术课程，我们会给您寄去您所资助的孩子的作品集感谢信">150 元</button>
+									<button type="button" class="money-4000 btn btn-primary" data-toggle="tooltip" data-placement="top" title="4000元，认购100个孩子音乐/美术/舞蹈课程或是10个孩子的摄影课程，成为音画梦想vip俱乐部会员，更有机会参与音画梦想举办的13人the genius真人游戏当中">4000 元</button>
+									<button type="button" class="money-300 btn btn-primary" data-toggle="tooltip" data-placement="right" title="300元，认购一个孩子的舞蹈课程，我们会给您寄去您所资助的孩子的感谢信">300 元</button>
+									<button type="button" class="money-600 btn btn-primary" data-toggle="tooltip" data-placement="right" title="600元，认购一个孩子的摄影课程，我们会给您寄去您所资助的孩子的作品及感谢信">600 元</button>
+								</div>
+								<div class="visible-xs">
+									<dl class="dl-horizontal">
+										<dt>1</dt>
+										<dd>认购音画梦想一年电子刊物，我们会每半年给您邮箱寄去音画梦想电子刊物</dd>
+										<dt>150</dt>
+										<dd>认购一个孩子的音乐/美术课程，我们会给您寄去您所资助的孩子的作品集感谢信</dd>
+										<dt>300</dt>
+										<dd>认购一个孩子的舞蹈课程，我们会给您寄去您所资助的孩子的感谢信</dd>
+										<dt>600</dt>
+										<dd>认购一个孩子的摄影课程，我们会给您寄去您所资助的孩子的作品及感谢信</dd>
+										<dt>4000</dt>
+										<dd>认购100个孩子音乐/美术/舞蹈课程或是10个孩子的摄影课程，成为音画梦想vip俱乐部会员，更有机会参与音画梦想举办的13人the genius真人游戏当中</dd>
+									</dl>
+								</div>
+								<p>请在捐赠后，将您的姓名，捐赠截图及联系方式（包括手机、邮箱）发送至xingchen.wang@artdreamchina.org，以便于我们更快地与您联系。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row ad-sup-donate-problem">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<div class="panel panel-info">
+							<div class="panel-heading">常见问题</div>
+							<div class="panel-body">
+								<ul class="panel-group" id="donate-q">
+							    	<li class="panel">
+					        			<a role="button" data-toggle="collapse" data-parent="#donate-q" href="#donate-q1" aria-expanded="false" class="collapsed">我捐的钱去了哪里？</a>
+									    <div id="donate-q1" class="collapse">
+									    	<p>您所捐的每一分善款，都将转至音画梦想“流动儿童艺术教育”公益项目在中华少年儿童慈善救助基金会下的公募账户，善款将全部用于“流动儿童艺术教育”公益项目的开展。</p>
+									    </div>
+							    	</li>
+								    <li class="panel">
+						        		<a role="button" data-toggle="collapse" data-parent="#donate-q" href="#donate-q2" aria-expanded="false" class="collapsed">我如何确认钱捐给了“流动儿童艺术教育项目”公益项目？</a>
+									    <div id="donate-q2" class="collapse">
+									    	<p>您可以点击本页面左侧的“善款公示”链接，在中华少年儿童慈善救助基金会的善款公示页面进行查询，以监督善款的流向。<br/>
+    								        注：汇款通常有延迟，您可以在捐款后1-2个工作日后查看。</p>
+									    </div>
+							    	</li>
+							    	<li class="panel">
+						        		<a role="button" data-toggle="collapse" data-parent="#donate-q" href="#donate-q3" aria-expanded="false" class="collapsed">我如何了解后续进展，监督善款的使用？</a>
+									    <div id="donate-q3" class="collapse">
+									    	<p>Anim所有善款，将全部用于“音画梦想流动儿童艺术教育项目”在全国的执行和推广。 我们将通过音画梦想微信公众号、微博和官方网站，定期公布善款流向和项目进展，欢迎您添加关注，以监督我们，对每一分善款负责。<br/> 
+											微信公众号：artdreambeijing<br/>
+											新浪微博：北京音画梦想社会工作事务所<br/>
+											官方网站：www.artdreamchina.org</p>
+									    </div>
+							    	</li>
+							    	<li class="panel">
+							        	<a role="button" data-toggle="collapse" data-parent="#donate-q" href="#donate-q4" aria-expanded="false" class="collapsed">“音画梦想流动儿童艺术教育”项目服务包含什么？</a>
+									    <div id="donate-q4" class="collapse">
+									    	<p>1）音乐课程（一周一次，一学期十次）<br/>
+											2）美术课程（一周一次，一学期十次）<br/>
+											3）摄影课程（一周一次，一学期十次）<br/>
+											4）舞蹈课程（一周一次，一学期十次）<br/>
+											5）流动儿童心理状况前后测评<br/>
+											6）根据儿童心理状况数据对比修改艺术教材</p>
+									    </div>
+									</li>
+									<li class="panel">
+							        	<a role="button" data-toggle="collapse" data-parent="#donate-q" href="#donate-q5" aria-expanded="false" class="collapsed">我如何能知道我资助地区的孩子在接受“音画梦想艺术教育课程”呢？你们如何监督项目的执行？</a>
+									    <div id="donate-q5" class="collapse">
+									    	<p>我们通过如下方式对项目进行公开：<br/> 
+									        1）通过微信、微博和官方网站进行半年度的工作报告披露；<br/>
+									        2）每学期课程前后会针对儿童进行心理状况的前后调查并披露调查数据结果； <br/>
+									        3）通过儿童心理状况的评估修改艺术教材</p>
+									    </div>
+									</li>
+							    	<li class="panel">
+							        	<a role="button" data-toggle="collapse" data-parent="#donate-q" href="#donate-q6" aria-expanded="false" class="collapsed">我怎么样获取捐赠发票？</a>
+									    <div id="donate-q6" class="collapse">
+									    	<p>您的捐赠发票将由中华少年儿童慈善救助基金会统一开据。开具和邮寄公益捐赠收据需要成本，建议100元以上的捐赠用户按需申请。 <br/>
+								        	需要捐赠收据的必须将捐赠人姓名、开票抬头、金额、捐赠渠道、日期、联系电话、地址、邮编等信息发至beijing@artdreamchina.org，并附上“我的捐款”记录的截图或者是汇款凭证的照片，经音画梦想及中华少年儿童慈善救助基金会确认后，会尽快以挂号信方式寄出捐赠收据。请您耐心等待。</p>
+									    </div>
+							    	</li>
+							    	<li class="panel">
+							        	<a role="button" data-toggle="collapse" data-parent="#donate-q" href="#donate-q7" aria-expanded="false" class="collapsed">我很想在除了捐款之外，捐一些物资或书籍给小朋友，你们可以帮忙吗？</a>
+									    <div id="donate-q7" class="collapse">
+									    	<p>目前音画梦想在北京设有20个流动人口学校及社区授课点，上海地区设有2个流动人口学校授课点，如您有物资捐赠需求，欢迎发送至邮箱beijing@artdreamchina.org或者拨打电话18201652399与我们联系。我们十分乐于将您的爱心散播给更多需要的人。</p>
+									    </div>
+							    	</li>
+							  	</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ad-sup-project" id="project">
+			<div class="title">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+						<h2>项目合作<span>/ XIANGMUHEZUO</span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="row ad-sup-project-publicity">
+					<div class="hidden-xs col-md-8 col-md-offset-2 col-sm-offset-2">
+						<div class="ad-sup-project-carousel ad-sup-carousel">
+							<img class="cloudcarousel"  src="../images/support_project/01.png" alt="2014年10月，音画梦想参与福特基金会的“好邻居计划”项目并在经过3个月的项目书审核和项目报告答辩后成功中标，获得福特基金会的大力资助。" title="美国福特基金会：好邻居项目"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/02.png" alt="2014年11月，南都公益基金会累计投入15万元请瑞森德为音画梦想设计筹款战略和筹款产品，系统培养筹款人才。" title="南都公益基金会：蓝海计划"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/03.png" alt="音画梦想成员在上海枫泾参与了由上海联劝基金会举办的“一个鸡蛋的暴走”徒步筹款活动，成员们完成了50km的徒步挑战，并获得了爱心人士2万余元的捐赠款。" title="上海联劝公益基金会：一个鸡蛋的暴走项目合作"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/04.png" alt="2015年3月，音画梦想在几百家机构中脱颖而出成功入选由西部阳光基金会举办的桥畔计划。" title="北京西部阳光农村发展基金会：桥畔计划"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/05.png" alt="2015年2月，音画梦想在100多家机构中脱颖而出，成功入选由麦田教育基金会举办的麦田同行计划，达成2015年的机构品牌文化建设合作。" title="中国麦田教育基金会：同行计划"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/06.png" alt="2015年5月，音画梦想同广东与人基金会达成了一年期的舞蹈课程项目合作协议，获得了来自与人基金会的项目资金支持。" title="广东省与人公益基金会"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/07.png" alt="2015年2月，音画梦想在几百个项目中脱颖而出，获得由中华儿慈会颁发的童缘“MVP”五佳项目奖。音画梦想成功在中华少儿慈善救助基金会成立专项基金。" title="中华少年儿童慈善救助基金会：童缘中国项目"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/08.png" alt="2015年8月，音画梦想项目在超过5000个项目中脱颖而出，获得由深圳公益基金会举办的中国慈善项目大赛慈善百强项目奖。" title="深圳市公益基金会：中国慈善项目百强"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/09.png" alt="2015年3月，音画梦想入选恩派第二期社会创业孵化训练营伙伴机构，将在恩派的专业支持和协助下，完善机构初创期各项工作制度、定位和梳理自我使命及受益人群的需求、明确未来发展目标" title="北京市恩派非营利组织发展中心：社会企业孵化项目"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/10.png" alt=" " title="中国发展简报"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/11.png" alt="2015年9月7日-9日，音画梦想参与了腾讯公益基金会举办的“99公益日”活动并成功在腾讯乐捐上募得善款30余万元，其中腾讯公益基金会的配比资金达15万元。" title="腾讯公益慈善基金会"/></a>
+							<img class="cloudcarousel"  src="../images/support_project/12.png" alt="2015年9月，音画梦想获得由明善公益网评选出的“明善公益榜•年度最具捐赠价值项目”奖并在第四届深圳慈展会上发布。" title="明善公益网"/></a>
+							<div id="project-carousel-left" class="carousel-left"></div>
+							<div class="carousel-info">
+								<p id="project-carousel-title" class="carousel-title"></p>
+								<p id="project-carousel-alt" class="carousel-content"></p>
+							</div>
+							<div id="project-carousel-right" class="carousel-right"></div>
+						</div>
+					</div>
+					<div class="visible-xs">
+						<div class="ad-sup-project-thumbs ad-sup-thumbs">
+							<img class="cloudcarousel"  src="../images/support_project/01.png" alt="美国福特基金会：好邻居项目"/>
+							<img class="cloudcarousel"  src="../images/support_project/02.png" alt="南都公益基金会：蓝海计划"/>
+							<img class="cloudcarousel"  src="../images/support_project/03.png" alt="上海联劝公益基金会：一个鸡蛋的暴走项目合作"/>
+							<img class="cloudcarousel"  src="../images/support_project/04.png" alt="北京西部阳光农村发展基金会：桥畔计划"/>
+							<img class="cloudcarousel"  src="../images/support_project/05.png" alt="中国麦田教育基金会：同行计划"/>
+							<img class="cloudcarousel"  src="../images/support_project/06.png" alt="广东省与人公益基金会"/>
+							<img class="cloudcarousel"  src="../images/support_project/07.png" alt="中华少年儿童慈善救助基金会：童缘中国项目"/>
+							<img class="cloudcarousel"  src="../images/support_project/08.png" alt="深圳市公益基金会：中国慈善项目百强"/>
+							<img class="cloudcarousel"  src="../images/support_project/09.png" alt="北京市恩派非营利组织发展中心：社会企业孵化项目"/>
+							<img class="cloudcarousel"  src="../images/support_project/10.png" alt="中国发展简报"/>
+							<img class="cloudcarousel"  src="../images/support_project/11.png" alt="腾讯公益慈善基金会"/>
+							<img class="cloudcarousel"  src="../images/support_project/12.png" alt="明善公益网"/>
+						</div>
+					</div>
+				</div>
+				<div class="row ad-sup-project-way ad-sup-co">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<div class="panel panel-info">
+							<div class="panel-heading">合作方式</div>
+							<div class="panel-body">
+								<div class="ad-sup-co-ask">
+									<h4>如果你是：</h4>
+									<dl>
+									  <dt>基金会：</dt>
+									  <dd>如果您愿意与音画梦想进行项目合作或资助，共同在当地推广已开发的相关课程/服务，例如音画梦想音乐、美术、摄影和舞蹈等教材研发、流动儿童及留守儿童发展心理测评和音画梦想艺术课程等，或针对自身的某一现实需求委托音画梦想进行专业课程/服务研发。</dd>
+									  <dt>教育部门：</dt>
+									  <dd>如果您愿意将音画梦想的专业课程/服务引入本地。</dd>
+									  <dt>其他公益组织：</dt>
+									  <dd>如果您愿意与音画梦想合作，在您所服务区域和人群中开展我们已开发的相关艺术课程/服务。</dd>
+									</dl>
+								</div>
+								<div class="ad-sup-co-contact">
+									<h4>联系我们：</h4>
+									<dl>
+										<dt>电话：</dt>
+										<dd>15201164378</dd>
+										<dt>邮箱：</dt>
+										<dd>beijing@artdreamchina.org</dd>
+										<dt>新浪微博：</dt>
+										<dd>@北京音画梦想社会工作事务所</dd>
+										<dt>微信公众号：</dt>
+										<dd>artdreambeijing</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ad-sup-enterprise" id="enterprise">
+			<div class="title">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+						<h2>企业资助<span>/ QIYEZIZHU</span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="row ad-sup-enterprise-publicity">
+					<div class="hidden-xs col-md-8 col-md-offset-2 col-sm-offset-2">
+						<div class="ad-sup-enterprise-carousel ad-sup-carousel">
+							<img class="cloudcarousel"  src="../images/support_enterprise/01.png" alt="2015年9月，音画梦想在100多家公益组织及基金会中脱颖而出，成为普华永道会计师事务所（PWC）导师计划的合作伙伴，此次导师计划中，音画梦想是唯一一支队伍平均年龄在20岁的公益机构。" title="PWC普华永道会计师事务所"/></a>
+							<img class="cloudcarousel"  src="../images/support_enterprise/02.png" alt="2014年6月，富士中国捐赠7台数码相机给音画梦想作为摄影课程使用。2014年6月，音画梦想参与了富士中国在国家会议中心举办的镜头下的人文视角主题展览。" title="富士中国"/></a>
+							<img class="cloudcarousel"  src="../images/support_enterprise/03.png" alt="2015年3月，佳能捐赠10台数码相机给音画梦想作为摄影课程使用。" title="佳能"/></a>
+							<div id="enterprise-carousel-left" class="carousel-left"></div>
+							<div class="carousel-info">
+								<p id="enterprise-carousel-title" class="carousel-title"></p>
+								<p id="enterprise-carousel-alt" class="carousel-content"></p>
+							</div>
+							<div id="enterprise-carousel-right" class="carousel-right"></div>
+						</div>
+					</div>
+					<div class="visible-xs">
+						<div class="ad-sup-enterprise-thumbs ad-sup-thumbs">
+							<img class="cloudcarousel"  src="../images/support_enterprise/01.png" alt="PWC普华永道会计师事务所"/>
+							<img class="cloudcarousel"  src="../images/support_enterprise/02.png" alt="富士中国"/>
+							<img class="cloudcarousel"  src="../images/support_enterprise/03.png" alt="佳能"/>
+						</div>
+					</div>
+				</div>
+				<div class="row ad-sup-enterprise-way ad-sup-co">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<div class="panel panel-info">
+							<div class="panel-heading">合作方式</div>
+							<div class="panel-body">
+								<div class="ad-sup-co-ask">
+								如果您愿意支持中国教育，让更多的儿童获得音画梦想的艺术课程/服务，或者支持企业自身内部志愿者使用音画梦想的课程／产品进行志愿服务
+								</div>
+								<div class="ad-sup-co-contact">
+									<h4>联系我们：</h4>
+									<dl>
+										<dt>电话：</dt>
+										<dd>15201164378</dd>
+										<dt>邮箱：</dt>
+										<dd>beijing@artdreamchina.org</dd>
+										<dt>新浪微博：</dt>
+										<dd>@北京音画梦想社会工作事务所</dd>
+										<dt>微信公众号：</dt>
+										<dd>artdreambeijing</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ad-sup-media" id="media">
+			<div class="title">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+						<h2>媒体合作<span>/ MEITIHEZUO</span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="row ad-sup-media-publicity">
+					<div class="hidden-xs col-md-8 col-md-offset-2 col-sm-offset-2">
+						<div class="ad-sup-media-carousel ad-sup-carousel">
+							<img class="cloudcarousel"  src="../images/support_media/01.png" alt="优酷网"/></a>
+							<img class="cloudcarousel"  src="../images/support_media/02.png" alt="新浪公益"/></a>
+							<img class="cloudcarousel"  src="../images/support_media/03.png" alt="腾讯网"/></a>
+							<img class="cloudcarousel"  src="../images/support_media/04.png" alt="央视网"/></a>
+							<img class="cloudcarousel"  src="../images/support_media/05.png" alt="凤凰艺术"/></a>
+							<div id="media-carousel-left" class="carousel-left"></div>
+							<div class="carousel-info">
+								<p id="media-carousel-alt" class="carousel-title"></p>
+							</div>
+							<div id="media-carousel-right" class="carousel-right"></div>
+						</div>
+					</div>
+					<div class="visible-xs">
+						<div class="ad-sup-media-thumbs ad-sup-thumbs">
+							<img class="cloudcarousel"  src="../images/support_media/01.png" alt="优酷网"/>
+							<img class="cloudcarousel"  src="../images/support_media/02.png" alt="新浪公益"/>
+							<img class="cloudcarousel"  src="../images/support_media/03.png" alt="腾讯网"/>
+							<img class="cloudcarousel"  src="../images/support_media/04.png" alt="央视网"/>
+							<img class="cloudcarousel"  src="../images/support_media/05.png" alt="凤凰艺术"/>
+						</div>
+					</div>
+				</div>
+				<div class="row ad-sup-media-way ad-sup-co">
+					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
+						<div class="panel panel-info">
+							<div class="panel-heading">合作方式</div>
+							<div class="panel-body">
+								<div class="ad-sup-co-ask">
+								如果您对音画梦想的理念和工作认同并有兴趣深入了解，愿意帮助我们传播正能量。</div>
+								<div class="ad-sup-co-contact">
+									<h4>联系我们：</h4>
+									<dl>
+										<dt>电话：</dt>
+										<dd>15201164378</dd>
+										<dt>邮箱：</dt>
+										<dd>beijing@artdreamchina.org</dd>
+										<dt>新浪微博：</dt>
+										<dd>@北京音画梦想社会工作事务所</dd>
+										<dt>微信公众号：</dt>
+										<dd>artdreambeijing</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% include 'footer.html' %}
+{% endblock %}
