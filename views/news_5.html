@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news5">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info"><a href="/newslist/p1"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 北京音画梦想社会工作事务所与首都经济贸易大学会计学院志愿者团签署合作协议 》</h3>
+
+			<span>发布于：2014.10.31&nbsp;&nbsp;浏览数：357&nbsp;&nbsp;新闻来源：音画梦想</span>
+
+			<p>10月19日上午，北京音画梦想社会工作事务所与首都经济贸易大学会计学院志愿者团签署合作协议，正式任命会计学院志愿者团为音画梦想在首都经济贸易大学的唯一官方指定校园团队代表。这也是音画梦想自成立以来建立的首个高校校园团队。相对音画梦想管理团队，校园团队更加了解本校的校情，能根据本校学生群体特点更好地宣传音画梦想，同时协助音画梦想进行授课志愿者招募、校园宣讲会和结合本校特色的一系列活动。音画梦想校园团队可以借由音画梦想这一强有力的公益组织形成自己的活动品牌，音画梦想也希望借由这一良好的开端，与更多高校形成良好的合作关系，帮助更多热爱公益的大学生志愿者寻找到更为有效的投身公益的途径。</p>
+			
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

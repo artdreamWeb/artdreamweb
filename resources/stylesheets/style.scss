@@ -3,6 +3,7 @@
 //--------- components file -----------//
 @import 'components/nav';
 @import 'components/carousel';
+@import 'components/navscroll';
 
 //--------- foundation file -----------//
 @import 'foundation/base';
@@ -13,8 +14,12 @@
 @import 'structures/footer';
 
 //--------- parts file -----------//
+@import 'parts/project';
 @import 'parts/information';
 @import 'parts/support';
+@import 'parts/newslist';
+@import 'parts/newsdetail';
+@import 'parts/cooplist';
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;

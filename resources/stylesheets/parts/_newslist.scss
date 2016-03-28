@@ -1,0 +1,94 @@
+body{
+	overflow-x: hidden;
+	position: absolute;
+	left: 0;
+}
+.ad-newsl{
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	line-height: 1.5em;
+	background: white;
+	padding: 0;
+	width: 100%;
+	position: relative;
+	a, a:link, a:visited, a:hover, a:active{
+		color: #00B7FF;
+		text-decoration: none;
+	}
+	.ad-newsl-title{
+		height: 60px;
+		background: #eee;
+		line-height: 48px;
+		span.glyphicon{
+			font-size: 1.5em;
+			margin:0 10px 0 20px;
+		}
+		h2{
+			font-size: 1.5em;
+			color: #414141;
+			display: inline-block;
+			span{
+				font-family: "Microsoft Tai Le";
+				color: #666;
+			}
+		}
+	}
+	.ad-newsl-content{
+		background: #fff;
+		padding: 20px 0;
+		width: 100%;
+		.ad-newsl-left{
+			p{
+				font-size: 4em;
+				line-height: 1em;
+  				font-family: "Franklin Gothic Heavy";
+ 				color: rgb( 187, 187, 188 );
+			}
+		}
+		.news-container{
+			 padding: 0;
+			.content{
+			    border-radius: 4px;
+			    overflow: hidden;
+			    margin: 10px;
+			    padding: 4px;
+			    height: 350px;
+			    border: 1px solid #ddd;
+			    -webkit-transition: border 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
+			    -o-transition: border 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
+			    transition: border 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
+			    cursor: pointer;
+			}
+			.content:hover{
+				border: 1px solid #337AB7;
+				box-shadow:0px 0px 10px #000;
+			}
+			
+			img{
+				width: 100%;
+				height: 170px;
+				margin: 0 auto;
+			}
+			.summary{
+				padding:10px;
+				margin: 0;
+				h4{
+				 	font-size: 1.1em;
+				 	font-weight: bold;
+				}
+			}
+		}
+	}
+	.ad-newsl-page{
+		margin: 0;
+		font-weight: bold;
+		ul{
+			position: relative;
+			left: 50%;
+			margin-left: -80px;
+		}
+		.disabled{
+			display: none;
+		}
+	}
+}

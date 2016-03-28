@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news7">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info"><a href="/newslist/p1"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 音画梦想成功入选麦田同行计划2015期伙伴机构 》</h3>
+
+			<span>发布于：2015.02.25&nbsp;&nbsp;浏览数：234&nbsp;&nbsp;新闻来源：音画梦想</span>
+
+			<p>北京音画梦想社会工作事务所于2015年2月11日成功入选麦田同行计划2015期伙伴机构。</p>
+			<p>麦田教育基金会产生自纯民间助学团队中国麦田计划，主要开展麦田少年社、都市方舟、同行计划三个项目。其中，同行计划自2012起，每年选择6-8家具有创新能力、诚信务实的民间公益组织，由其为入选机构设计视觉形象系统、文化系统，并协助完善管理制度。</p>
+			<p>在此次2015期同行伙伴招募中，共100家民间公益组织参与竞选。音画梦想同其他5家公益组织经过申请表筛选、顾问及伙伴机构推荐、评审打分、线上交流等审核流程，最终成功入选。作为2015期麦田同行伙伴，音画梦想将在麦田教育基金会的友好协助下，完善机构文化系统和管理制度、定位和梳理自我使命及受益人群的需求、明确未来发展目标。在和其他同行伙伴的合作交流中，音画梦想也将抓住机会借鉴同行伙伴的宝贵经验，努力将此次同行的意义最大化。</p>
+
+			<img class="thumb" src="../images/news/7/1.jpg">
+
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

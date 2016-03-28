@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news1">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info ad-newsd-home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 北京音画梦想社会工作事务所成功中标福特基金会“好邻居项目” 》</h3>
+
+			<span>发布于：2014.10.31&nbsp;&nbsp;浏览数：397&nbsp;&nbsp;新闻来源：音画梦想</span>
+
+			<p>2014年7月，北京音画梦想社会工作事务所参与福特基金会的“好邻居计划”项目并在经过3个月的项目书审核和项目报告答辩后成功中标，获得福特基金会的大力资助。此次项目中标是音画梦想开启多种融资渠道的开端，音画梦想将以此为契机，实现与更多基金会的共赢合作。</p>
+			
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

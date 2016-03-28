@@ -1,0 +1,82 @@
+{% extends 'layout.html' %}
+{% block title %}合作媒体详情列表{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-coopl">
+	<div class="row title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>合作媒体详情列表<span class="hidden-xs">/ HEZUOMEITIXIANGQINGLIEBIAO</span></h2>
+			<a class="btn btn-info" role="button" href="/support#media"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="slogan col-md-2 hidden-sm hidden-xs">
+			<p class="text-left">“</p>
+			让所有外来务工人员子女
+			都能享受到艺术教育的机会
+			<p class="text-right">”</p>
+		</div>			
+		<div class="list col-md-8">
+			<div class="media">
+				<div class="media-left">
+					<img class="media-object" src="../images/support/media/01.png" alt="优酷网">
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">优酷网</h4>
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<img class="media-object"  src="../images/support/media/02.png" alt="新浪公益"/>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">新浪公益</h4>
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<img class="media-object"  src="../images/support/media/03.png" alt="腾讯网"/>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">腾讯网</h4>
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<img class="media-object"  src="../images/support/media/04.png" alt="央视网"/>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">央视网</h4>
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<img class="media-object"  src="../images/support/media/05.png" alt="凤凰艺术"/>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">凤凰艺术</h4>
+				</div>
+			</div>							
+		</div>
+	</div>
+	<nav class="row page-control">
+	  <ul class="pagination">
+	    <li class="disabled">
+	      <a href="/mediacooplist/p1" aria-label="Previous">
+	        <span aria-hidden="true">&laquo;</span>
+	      </a>
+	    </li>
+	    <li class="active"><a>1</a></li>
+	    <li class="disabled">
+	      <a href="/mediacooplist/p2" aria-label="Next">
+	        <span aria-hidden="true">&raquo;</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav>
+</div>
+{% include 'footer.html' %}
+{% endblock %}

@@ -1,0 +1,86 @@
+.ad-coopl {
+position: relative;
+	padding: 0;
+	width: 100%;
+	background: #fff;
+	line-height: 1.5em;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	a, a:link, a:visited, a:hover, a:active {
+		color: #00B7FF;
+		text-decoration: none;
+	}
+	h2 {
+		display: inline-block;
+		font-size: 1.5em;
+		color: #414141;
+		span {
+			font-family: "Microsoft Tai Le";
+			color: #666;
+		}
+	}
+	.title {
+		height: 60px;
+		background: #eee;
+		line-height: 48px;
+		.glyphicon {
+			margin: 0 10px;
+			font-size: 1.5em;
+		}
+		.btn {
+			float: right;
+			position: relative;
+			right: 5px;
+			top:10px;
+			margin-right: 15px;
+			padding: 0;
+			width: 45px;
+			height: 45px;
+			background-color: #286090;
+			border-color: #286090;
+			border-radius: 45px;			
+			span {
+				margin: 8px 0;
+				color: #fff;
+			}
+		}
+		.btn:hover {
+			background-color: #5bc0de;
+			border-color: #46b8da;
+		}
+	}
+	.container {
+		padding: 30px 15px;
+	}
+	.slogan {
+		p{
+			line-height: 1em;
+			font-family: "Franklin Gothic Heavy";
+			font-size: 4em;
+			color: #bbbbbc;
+		}
+	}
+	.media-object {
+		margin: 0 auto;
+		width: 120px;
+		border: 1px solid #ccc;
+	}
+	.media-body {
+		vertical-align: middle;
+	}
+	h4 {
+		font-weight: bold;
+	}
+	.page-control {
+		margin: 0;
+		font-weight: bold;
+		ul {
+			position: relative;
+			left: 50%;
+			margin-left: -80px;
+		}
+		.disabled {
+			display: none;
+		}
+	}
+}

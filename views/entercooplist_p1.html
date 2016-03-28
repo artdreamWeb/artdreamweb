@@ -1,0 +1,70 @@
+{% extends 'layout.html' %}
+{% block title %}资助企业详情列表{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-coopl">
+	<div class="row title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>资助企业详情列表<span class="hidden-xs">/ ZIZHUQIYEXIANGQINGLIEBIAO</span></h2>
+			<a class="btn btn-info" role="button" href="/support#enterprise"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="slogan col-md-2 hidden-sm hidden-xs">
+			<p class="text-left">“</p>
+			让所有外来务工人员子女
+			都能享受到艺术教育的机会
+			<p class="text-right">”</p>
+		</div>			
+		<div class="list col-md-8">
+			<div class="media">
+				<div class="media-left">
+					<img class="media-object" src="../images/support/enterprise/01.png" alt="PWC普华永道会计师事务所">
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">PWC普华永道会计师事务所</h4>
+					2015年9月，音画梦想在100多家公益组织及基金会中脱颖而出，成为普华永道会计师事务所（PWC）导师计划的合作伙伴，此次导师计划中，音画梦想是唯一一支队伍平均年龄在20岁的公益机构。
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<img class="media-object"  src="../images/support/enterprise/02.png" alt="富士中国"/>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">富士中国</h4>
+					2014年6月，富士中国捐赠7台数码相机给音画梦想作为摄影课程使用。2014年6月，音画梦想参与了富士中国在国家会议中心举办的镜头下的人文视角主题展览。
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<img class="media-object"  src="../images/support/enterprise/03.png" alt="佳能"/>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">佳能</h4>
+					2015年3月，佳能捐赠10台数码相机给音画梦想作为摄影课程使用。
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<nav class="row page-control">
+	  <ul class="pagination">
+	    <li class="disabled">
+	      <a href="/entercooplist/p1" aria-label="Previous">
+	        <span aria-hidden="true">&laquo;</span>
+	      </a>
+	    </li>
+	    <li class="active"><a>1</a></li>
+	    <li class="disabled">
+	      <a href="/entercooplist/p2" aria-label="Next">
+	        <span aria-hidden="true">&raquo;</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav>
+</div>
+{% include 'footer.html' %}
+{% endblock %}

@@ -1,0 +1,36 @@
+.ad-nav-scroll {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 120px;
+	.affix {
+        top: 100px;
+    }
+    .glyphicon {
+		margin-right: 10px;
+	}
+	li {
+		margin: 0;
+		a {		
+			border-radius: 0;
+			background: #fff;
+			color: #414141!important;
+		}
+		a:hover {
+			color: #4fa3fb!important;
+		}
+		span {
+			display: none;
+		}
+	}
+	li.active {
+		a {
+			background: #4fa3fb;
+			color: #fff!important;
+		}
+		span {
+			display: inline-block;
+			color: #fff!important;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news19">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info ad-newsd-home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 音画梦想成功入选北京市福利彩票公益金资助社会组织开展公益服务项目 》</h3>
+
+			<span>发布于：2015.06.24&nbsp;&nbsp;浏览数：202&nbsp;&nbsp;新闻来源：音画梦想</span>
+
+			<p>北京音画梦想社会工作事务所于2015年6月14日成功入选由北京市民政局组织的福利彩票公益金资助社会组织开展公益服务项目，并于6月19日在北京市民政局签署了相关项目协议。</p>
+
+			<img class="thumb" src="../images/news/19/1.jpg">
+
+			<p>北京市福利彩票公益金资助社会组织开展公益服务项目是北京市民政局为贯彻落实中央关于激发社会组织活力，加大政府购买服务力度的要求，充分发挥福利彩票公益金的引导作用，推动社会组织参与社会治理而开展的在扶老助老、扶残助残、扶贫济困、社区公益、行业管理、社会组织扶持发展六大领域重点资助的公益服务项目。</p>
+
+			<p>在2015年第一批公益项目申报中，共上千个公益项目参与竞选。音画梦想作为独立申报单位，所申请的艺术教育结合社工服务保障城市低收入家庭儿童素质教育和心理健康的可持续发展项目经第三方机构初审、专家评审、项目领导小组和市民政局局长办公会审议通过，与其他104个优秀的公益项目一起被选为了2015年的第一批福利彩票公益金资助项目。此次项目的成功入选，证明了北京市政府对于音画梦想所服务的项目的肯定，我们将不负所望，努力针对艺术教育结合儿童心理健康可持续发展的服务项目精益求精，使这个项目能够惠及更多孩子。</p>
+
+			<p class="text-center"><strong><a href="http://www.bjsstb.gov.cn/wssb/wssb/xxfb/showBulltetin.do?id=53993&dictionid=8102&websitId=100&netTypeId=2&from=groupmessage&isappinstalled=0" target="_blank">点击进入福利彩票公益金资助社会组织开展公益服务项目入选链接</a></strong></p>
+
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

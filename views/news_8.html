@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news8">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info"><a href="/newslist/p1"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 音画梦想 童话之旅——流动儿童“3D”艺术一日游 》</h3>
+
+			<span>发布于：2015.03.17&nbsp;&nbsp;浏览数：210&nbsp;&nbsp;新闻来源：音画梦想</span>
+			
+			<p>2015年3月15日，北京音画梦想社会工作事务所带领天阶社区的孩子们来到北京瞳艺3D错觉艺术馆进行艺术一日游的活动。他们的家长和带队老师，以及音画梦想的社工随行。</p>
+
+			<p>艺术馆展出了不同风格的作品，并附带拍照的方法。在社工和老师们的讲解下，家长和孩子们在各种不可思议的错觉空间拍照留念，摆出各式各样新鲜有趣的姿势，感受3D立体效果。炫酷的体感游戏更是让孩子们乐在其中，他们跟着屏幕和旋律手舞足蹈，获得无限乐趣。星空小屋里的梦幻灯光，仿佛让孩子们置身于星海，进行天马行空的想象。</p>
+
+			<p>随后，孩子们进行了临摹艺术画的活动，拍照留念并制作了贺卡来感谢社会善士。</p>
+
+			<p>此次活动旨在开阔孩子们的眼界，让孩子们置身其中，充分感受艺术的魅力，提高自身的审美能力和创造力。</p>
+
+			<p>北京音画梦想社会工作事务所希望可以通过举办更多类似的活动，带领孩子们畅游艺术的海洋，保护他们的纯真与梦想，保证他们拥有平等艺术教育的权利。促进孩子们获得更多的知识和能力，帮助孩子们健康快乐的成长！</p>
+
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

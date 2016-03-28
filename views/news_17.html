@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news17">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info ad-newsd-home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 音画梦想成功入选桥畔计划2015年合作伙伴机构 》</h3>
+
+			<span>发布于：2015.06.01&nbsp;&nbsp;浏览数：155&nbsp;&nbsp;新闻来源：音画梦想</span>
+
+			<p>北京音画梦想社会工作事务所于2015年4月30日成功入选桥畔计划2015年合作伙伴机构名单，并于5月6日在北京恩派会议室与西部阳光基金会成员召开了桥畔计划项目合作方案讨论会。</p>
+
+			<img class="thumb" src="../images/news/17/1.jpg">
+
+			<p>“桥畔计划”致力于寻找专注教育问题的初创公益组织，在与各个组织的合作中，协助其发现问题，通过创造学习、交流机会，提供灵活资金等支持，帮助其提升能力，缩短度过初创阶段的周期，为推动中国教育问题改善输送力量。自2010年项目启动至今，“桥畔计划”累计与63家教育公益组织进行了合作。</p>
+
+			<p>在2015年合作伙伴招募中，共上百家民间公益组织参与竞选。音画梦想经过申请表筛选、线下交流审核、专家评审等层层考验，最终成功入选。作为桥畔计划2015年合作伙伴，音画梦想将在西部阳光基金会等基金会的友好协助下，明确及完善组织的服务模式，更好地解决服务对象的需求。</p>
+
+			<p class="text-center"><strong><a href="http://www.westsa.org/a/womenzaixingdong/zhichipingtai/caogenjiaoyu/2194.html" target="_blank">查看桥畔计划入选公示</a></strong></p>
+
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

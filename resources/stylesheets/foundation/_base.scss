@@ -1,3 +1,8 @@
 body{
-	background: $body-bg ;
+	background: $body-bg;
+	width: 100%;
+}
+.container{
+	width: 100% !important;
+	margin: 0;
 }

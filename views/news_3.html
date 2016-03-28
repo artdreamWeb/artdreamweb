@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news3">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info"><a href="/newslist/p1"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 “东沙是我家”儿童主题摄影展暨摄影画册发布会在京举行 》</h3>
+
+			<span>发布于：2014.10.31&nbsp;&nbsp;浏览数：244&nbsp;&nbsp;新闻来源：中国网</span>
+
+			<p>当日，由新华社摄影部中国室党支部和木兰社区活动中心联合主办的“东沙是我家”儿童主题摄影展暨摄影画册发布会在北京雨枫书馆举行。本次展览共展出居住生活在北京昌平区北七家镇东沙各庄村的“流动儿童”拍摄的摄影作品200多幅，孩子们通过手中的相机，记录身边的人物和环境，展现了对生活状态的理解和对美好梦想的追求。</p>
+
+			<img class="thumb" src="../images/news/3/1.jpg">
+			<p class="text-center"><small>图为摄影展活动现场。中国网 董德/摄</small></p>
+
+			<img class="thumb" src="../images/news/3/2.jpg">
+			<p class="text-center"><small>图为来自北京昌平区北七家镇东沙各庄村的打工子弟。中国网 董德/摄</small></p>
+
+			<img class="thumb" src="../images/news/3/3.jpg">
+			<p class="text-center"><small>图为打工子弟的摄影作品。中国网 董德/摄</small></p>
+
+			<img class="thumb" src="../images/news/3/4.jpg">
+			<p class="text-center"><small>图为摄影展活动现场。中国网 董德/摄</small></p>
+
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

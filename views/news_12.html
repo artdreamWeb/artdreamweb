@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news12">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info ad-newsd-home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 音画梦想成功入选蓝海计划第二期合作伙伴机构 》</h3>
+
+			<span>发布于：2015.04.09&nbsp;&nbsp;浏览数：137&nbsp;&nbsp;新闻来源：音画梦想</span>
+
+			<p>北京音画梦想社会工作事务所于2014年12月1日成功入选由第二届蓝海计划合作伙伴机构并于12月11日在南都基金会会议室与瑞森德，南都基金会及另一家公益组织——中国滋根乡村教育与发展促进会召开了蓝海计划项目促进会。</p>
+
+			<img class="thumb" src="../images/news/12/1.jpg">
+
+			<p>“蓝海计划”是由瑞森德和南都基金会共同发起的支持公益组织提升筹款能力的项目。其运作方式是南都基金会和公益组织共同出资，瑞森德以远低于市场价的价格为每个公益组织提供一对一的筹款咨询服务。服务期间为两年，服务内容包括帮助公益组织梳理和规划筹款战略、研发筹款产品、培养筹款专岗人才及一年期的定期辅导和观察。</p>
+
+			<p>在此次第二期合作伙伴招募中，共几十家家民间公益组织参与竞选。音画梦想同中国滋根经过申请表筛选、评审打分、线上交流审核等流程，最终成功入选。作为第二期蓝海计划合作伙伴，音画梦想将在南都公益基金会和瑞森德的友好协助下，完善机构公众筹款体系，明确筹款受众人员目标并制定出相应的明星筹款产品。真正实现公众筹款能力的提升，形成组织自我造血机制。</p>
+
+			<img class="thumb" src="../images/news/12/2.jpg">
+
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

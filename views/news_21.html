@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news21">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info ad-newsd-home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 恭喜音画梦想获得优酷阳光90后先锋代表人物 》</h3>
+
+			<span>发布于：2015.08.26&nbsp;&nbsp;浏览数：100&nbsp;&nbsp;新闻来源：音画梦想</span>
+
+			<p>2015年8月8日，音画梦想承蒙众多优酷网友的厚爱参加了优酷阳光90后showtime的活动。优酷阳光90后showtime是一场聚集全国各地有才艺特长的年轻90后的青春聚会，作为一支完全由90后组建的公益团队，音画梦想在官方注册的仅不到一年的时间内就筹集到超过100万的项目资金，并获得了中国慈善项目百强称号以及中华少年儿童慈善救助基金会颁发的全国五佳项目奖等多个奖项。此次，音画梦想感谢优酷网友的支持与厚爱，获得了优酷阳光90后先锋人物代表的奖项。</p>
+
+			<img class="thumb" src="../images/news/21/1.jpg">
+
+			<p>一同出席活动的90后先锋人物代表的还有青年演员刘昊然、电竞女王马雪以及火箭天才、服装设计师等在各行各业发光的年轻90后们。</p>
+
+			<p>这份荣誉也将鞭策着音画梦想朝着更加专业的方向努力，争取成为儿童公益教育界的标杆，为更多的90后和社会各界们带去正能量！</p>
+
+			<img class="thumb" src="../images/news/21/2.jpg">
+
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

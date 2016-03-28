@@ -1,113 +1,98 @@
-.ad-info{
-	font-family: "Microsoft YaHei";
-	font-size: 14px;
-	line-height: 1.5em;
-	background: white;
+.ad-info {
+	position: relative;
 	padding: 0;
 	width: 100%;
-	position: relative;
-	a, a:link, a:visited, a:hover, a:active{
-		color: #00B7FF;
+	background: #fff;
+	line-height: 1.5em;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	a, a:link, a:visited, a:hover, a:active {
+		color: #00B7FF;	
 		text-decoration: none;
 	}
-	.ad-info-nav{
-		position: absolute;
-		left:0;
-		top:100px;
-		width: 120px;
-		.affix{
-	        top: 100px;
-	    }
-		li{
-			margin: 0;
-			a{
-				border-radius: 0;
-				color: #414141;
-				background: #fff;
-				span.glyphicon{
-					display: none;
-				}
-			}
-			a:hover{
-				color: #4fa3fb;
-			}
-		}
-		li.active{
-			background: #4fa3fb;
-			a{
-				background: #4fa3fb;
-				color: #fff;
-				span.glyphicon{
-					display: inline-block;
-				}
-			}
-		}
-		span.glyphicon{
-			margin-right: 10px;
+	h2 {
+		display: inline-block;
+		font-size: 1.5em;
+		color: #414141;
+		span {
+			font-family: "Microsoft Tai Le";
+			color: #666;
 		}
 	}
-	.ad-info-content{
-		.title{
-			height: 60px;
-			background: #eee;
-			line-height: 48px;
-			span.glyphicon{
-				font-size: 1.5em;
-				margin:0 10px 0 20px;
-			}
-			h2{
-				font-size: 1.5em;
-				color: rgb( 65, 65, 65 );
-				display: inline-block;
-				span{
-					font-family: "Microsoft Tai Le";
-					color: rgb( 102, 102, 102 );
-				}
-			}
+	.title {
+		height: 60px;
+		background: #eee;
+		line-height: 48px;
+		.glyphicon {
+			margin: 0 10px;
+			font-size: 1.5em;
 		}
-		.content{
-			background: #fff;
-			padding: 30px 50px;
-			width: 100%;
+	}
+	.container {
+		padding: 30px 15px;
+	}
+	#report {
+		a {
+	    	color: #fff;
+	    }
+	    .btn {
+			display: block;
+			margin: 10px auto 20px;
+			width: 230px;
 		}
-		#report{
-			.annals,.finance{
+		.download {
+			position: relative;
+			margin: 0 auto;
+			border: 2px solid #A0A0A0;
+			width: 230px;
+			height: 320px;			
+			overflow: hidden;
+		}
+		.download:hover {
+			.cover{
 				height: 320px;
-				width: 230px;
-				margin: auto;
-				margin-bottom: 10px;
-				border: 2px solid #A0A0A0;
-				overflow: hidden;
-			}
-			.annals-caption, .finance-caption{
-				display: none;
-				height: 320px;
-				width: 230px;
-			    top: 0;
-			    position: absolute;
-			    text-align: center;
-			    background: rgba(253,189,164,.9);
-			    color: #fff;
-			    font-size: 1.2em;
-			    font-weight: bold;
-			    line-height: 320px;
-			}
-			.finance-caption{
-				background: rgba(63,81,181,.8);
 			}
 		}
-		#regulation{
-			li{
-				font-size: 1.1em;
-				line-height: 2em;
-				a{
-					color: #00499a;
-					text-decoration: none;
-				}
-				a:hover,a:active{
-					color: #f19715;
-				} 
-			}
+		.cover {
+			position: absolute;
+			top: 0;	
+			left: 0;		
+			width: 230px;
+			height: 0;
+			background: #ffffff;		    
+		    filter: alpha(opacity=90);
+		    background: rgba(255,255,255,.9);
+			line-height: 320px;
+		    text-align: center;		    
+		    font-size: 1.2em;
+		    font-weight: bold;
+		    color: #666;
+		    overflow: hidden;
+		    moz-transition: all 0.2s ease-in;
+		    -webkit-transition: all 0.2s ease-in;
+		    -o-transition: all 0.2s ease-in;
+		    transition: all 0.2s ease-in;
 		}
+		.finance-caption {		
+			cursor: default;
+		}
+	}
+	#regulation {
+		li {
+			line-height: 2em;
+			font-size: 1.1em;			
+		}
+		a {
+			color: #00499a;
+			text-decoration: none;
+			moz-transition: text-indent 0.1s ease-in-out;
+			-webkit-transition: text-indent 0.1s ease-in-out;
+			-o-transition: text-indent 0.1s ease-in-out;
+			transition: text-indent 0.1s ease-in-out;
+		}
+		a:hover, a:active {
+			color: #f19715;
+			text-indent: 1em;
+		} 
 	}
 }

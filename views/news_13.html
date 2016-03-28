@@ -1,0 +1,42 @@
+{% extends 'layout.html' %}
+{% block title %}新闻{% endblock %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<div class="container ad-newsd" id="news13">
+	<div class="row ad-newsd-title">
+		<div class="col-md-8 col-md-offset-2">
+			<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+			<h2>新闻<span class="hidden-xs">/ XINWEN</span></h2>
+			<button type="button" class="btn btn-info ad-newsd-home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
+		</div>
+	</div>
+	<div class="row ad-newsd-content">
+		<div class="col-md-8 col-md-offset-2">
+			<h3>《 音画梦想成功入选恩派第二期社会创业孵化训练营伙伴机构 》</h3>
+
+			<span>发布于：2015.04.09&nbsp;&nbsp;浏览数：190&nbsp;&nbsp;新闻来源：音画梦想</span>
+
+			<p>北京音画梦想社会工作事务所于2015年3月16日成功入选恩派第二期社会创业孵化训练营伙伴机构。</p>
+
+			<p>恩派（NPI）起步于2006年初，它以"助力社会创新，培育公益人才"为使命，致力于发掘培育那些处于创业期的草根社会组织。历时八年，现已发展成为国内规模最大、服务最全、影响最广的支持性公益组织之一。 恩派于2006年在国内首创"公益孵化器"模式，实行至今已孵化培育了约200家优秀民间机构，并成功在全国多个大中城市推广复制，被称为近年来社会建设领域的重要制度创新。</p>
+
+			<p>在此次第二期社会创业孵化训练营伙伴招募中，共100家民间公益组织参与竞选。音画梦想同其他9家公益组织经过申请表筛选、评审打分、线上交流等审核流程，最终成功入选。作为第二期社会创业孵化训练营伙伴机构，音画梦想将在恩派的友好协助下，完善机构初创期各项工作制度、定位和梳理自我使命及受益人群的需求、明确未来发展目标。在和其他同行伙伴的合作交流中，音画梦想也将抓住机会借鉴同行伙伴的宝贵经验，努力将此次活动的意义最大化。</p>
+
+			<img class="thumb" src="../images/news/13/1.jpg">
+
+			<nav class="row ad-newsd-nav">
+				<div class="col-xs-6 prev">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>上一篇</button>
+				</div>
+				<div class="col-xs-6 next">
+					<button type="button" class="btn btn-info text-right"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>下一篇</button>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+{% endblock %}

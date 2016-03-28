@@ -3,52 +3,50 @@
 {% block content %}
 {% include 'navbar.html' %}
 {% include 'focus.html' %}
-<div class="container ad-info">
-	<div class="ad-info-nav hidden-xs ad-nav-scroll">
-		<ul class="nav nav-pills nav-stacked" id="navbar-example ad-nav-spy">
+<div class="ad-info">
+	<div class="ad-nav-scroll hidden-xs">
+		<ul class="ad-nav-spy nav nav-pills nav-stacked">
 		  <li role="presentation" class="active"><a href="#report"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>年报财报</a></li>
 		  <li role="presentation"><a href="#regulation"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>管理制度</a></li>
 		</ul>
 	</div>
-	<div class="ad-info-content" data-spy="scroll" data-target="#navbar-example">
-		<div class="row" id="report">
-			<div class="title">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
-						<span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
-						<h2>年报财报<span>/ NIANBAOCAIBAO</span></h2>
-					</div>
+	<div class="main" data-spy="scroll">
+		<div id="report">
+			<div class="title row">
+				<div class="col-md-8 col-sm-offset-2">
+					<span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+					<h2>年报财报<span class="hidden-xs">/ NIANBAOCAIBAO</span></h2>
 				</div>
 			</div>
-			<div class="content container-fluid">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-2">
-						<div class="annals">
-							<img class="annals-img" src="../images/information_annals.png" alt="annals download">
-							<div class="annals-caption"><a href="../docs/annals.pdf">点击下载音画年报</a></div>
+					<div class="col-md-4 col-sm-5 col-sm-offset-2">
+						<div class="download">
+							<img src="../images/information/annals.jpg" alt="annals download">
+							<a class="annals-caption cover" href="../docs/annals.pdf">点击下载&nbsp;&nbsp;<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
 						</div>
+						<a class="btn btn-info" href="#" role="button">查看更多&nbsp;&nbsp;&gt;&gt;</a>
 					</div>
 					<div class="col-md-4 col-sm-5">
-						<div class="finance">
-							<img class="finance-img" src="../images/information_finance.png" alt="finance download">
-							<div class="finance-caption">音画年报，敬请期待</div>
+						<div class="download">
+							<img src="../images/information/finance.jpg" alt="finance download">
+							<a class="finance-caption cover" href="javascript:void(0)">音画年报，敬请期待</a>
 						</div>
+						<a class="btn btn-info" href="#" role="button">查看更多&nbsp;&nbsp;&gt;&gt;</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row" id="regulation">
-			<div class="title">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 col-sm-offset-2">
-						<span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
-						<h2>管理制度<span>/ GUANLIZHIDU</span></h2>
-					</div>
+		<div id="regulation">
+			<div class="title row">
+				<div class="col-md-8 col-sm-offset-2">
+					<span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+					<h2>管理制度<span class="hidden-xs">/ GUANLIZHIDU</span></h2>
 				</div>
 			</div>
-			<div class="content">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-md-offset-3 col-sm-5 col-sm-offset-2">
+					<div class="col-md-4 col-sm-5 col-sm-offset-2">
 						<ul>
 							<li><a href="../docs/regulations/音画梦想会议制度.zip"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>《音画梦想会议制度》</a></li>
 							<li><a href="../docs/regulations/音画梦想财务管理细则.zip"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>《音画梦想财务管理细则》</a></li>
